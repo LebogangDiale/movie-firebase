@@ -72,7 +72,7 @@ function Login(){
 
     return (
         <div>
-            <div className="container-sm shadow rounded p-3 mt-3 w-50">
+            <div className="container-sm shadow rounded p-3 mt-3 w-75">
                 <div className="mb-4">
                     <h2>Login to your account</h2>
                 </div>
