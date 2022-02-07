@@ -26,7 +26,7 @@ function Login(){
             alert('All fields must be filled');
         }else{
             
-            axios.post("http://localhost:4000/users/login", formData)
+            axios.post("https://movie-server-deploy.herokuapp.com/users/login", formData)
             .then(res => {
                 const status = res.status;
                 
